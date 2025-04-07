@@ -1,5 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
+require("@nomicfoundation/hardhat-verify");
 
 module.exports = {
   solidity: "0.8.20", // Match the Solidity version with your contract
